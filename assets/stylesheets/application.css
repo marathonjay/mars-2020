@@ -29,6 +29,23 @@ body {
     height: 300px;
   } 
 
+  #m20-section-launch {
+    display: flex;
+  }
+
+  #m20-launch {
+      
+      width: 500px;
+      height: 300px;
+  }
+
+  .section-banner {
+      height: 400px;
+      width: 200px;
+      background: blue;
+      clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+  }
+
 
   
   
