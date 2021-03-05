@@ -46,10 +46,12 @@ section {
   }
 
 #m20-header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #0E0E0E;
+    border: solid;
   }
 
 #m20-header-nav {
@@ -65,15 +67,23 @@ section {
 /* --------------HERO BANNER----------------- */
 
 
-/* #m20-hero-banner {
+#m20-hero-banner {
     display: flex;
+    justify-content: space-between;
     width: 100%;
+   x */
   }
   
 #m20-hero-image {
-    width: 300px;
-    height: 300px;
-  }  */
+    width: 600px;
+    height: 600px;
+    clip-path: circle(41%);
+    margin-right: 100px;
+  } 
+
+  #banner-heading {
+    margin: 200px 0px 0px 200px;
+  }
 
 
   /* --------------SECTIONS----------------- */
