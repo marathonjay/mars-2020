@@ -42,7 +42,6 @@
   color: #b83c07;
 }
 
-
 /* --------------HERO BANNER----------------- */
 
 .container-banner {
@@ -78,63 +77,67 @@
 
   /* --------------SECTIONS----------------- */
 
-  section { 
+  .section { 
     display: flex;
     cursor: pointer;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    padding: 0px 25px 0px 25px;
   }
   
-
   .heading-section {
-    margin: 0px;
-    position: absolute;
+    margin: 0px 0px 20px 50px;
     font-size: 72px;
     text-transform: uppercase;
     letter-spacing: 20px;
     text-shadow: 2px 2px 3px gray;
   }
+
+  .container-section-image {
+    width: 100%;
+    height: 400px;
+  }
   
   .section-image {
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    object-position: 0px 35%;
-    clip-path: polygon(3.5% 0%, 100% 0%, 96.5% 100%, 0% 100%);
+    object-position: 0px 25%;
+    clip-path: polygon(2.5% 0%, 100% 0%, 97.5% 100%, 0% 100%);
     opacity: .5;
   }
 
   .container-section {
-    display: flex;
     width: 100%;
-    height: 600px;
+    
   }
 
 
 .section-banner {  
       width: 10%;
-      background: blue;
+      background: #b83c07;
       clip-path: polygon(30% 0%, 100% 0%, 70% 100%, 0% 100%);
       opacity: .5;
   }
 
 
+
+
+
+
 #heading-launch {
-  margin: 150px 0px 0px 200px;
   
-  border: solid;
   }
 
-#heading-cruise {
-  
-  margin: 150px 0px 0px 1100px;
+#heading-cruise { 
+ 
   }
 
 #heading-descent {
-  margin: 150px 0px 0px 200px;
+  
   }
 
 #heading-mission {
-    justify-content: flex-end;
-    /* margin-right: 250px; */
+    
   }
 
   
