@@ -103,7 +103,6 @@
     object-fit: cover;
     object-position: 0px 25%;
     clip-path: polygon(2.5% 0%, 100% 0%, 97.5% 100%, 0% 100%);
-    opacity: .5;
   }
 
   .container-section {
