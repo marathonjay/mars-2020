@@ -151,6 +151,7 @@ flex-direction: column;
 }
 
 #main-login {
+  background-image: linear-gradient(to bottom, #eddab2, #fff);
   display: flex;
   justify-content: center;
   align-items: center;
